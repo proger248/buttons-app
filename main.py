@@ -3,21 +3,10 @@ import time
 
 window = tk.Tk()
 window.title("Приложение с кнопками")
-# window.geometry('900x700')
 window.resizable(False, False)
 
-
-def wait():
-    time.sleep(10)
-
-
 def btn1_clicked():
-    # # btn1.configure(bg="#ffea00")
-    # btn2["state"] = "disabled"
-    # btn3["state"] = "disabled"
-    # # btn1.configure(bg="#a6a4a4")
-    # # btn2["state"] = "normal"
-    wait()
+    time.sleep(10)
 
 
 btn1 = tk.Button(text="Игрок 1", command=btn1_clicked, bg="#a6a4a4", height=15, width=100)
